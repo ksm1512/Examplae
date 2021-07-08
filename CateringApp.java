@@ -41,7 +41,7 @@ class Caterers
 			System.out.print("Please Enter The Price for " +str + " item " );
 			int price;
 			price = sc.nextInt();
-			total+=price;
+			total=total+price;
 			
 		}
 		System.out.println("The total of all item is : " +total);
